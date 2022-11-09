@@ -30,21 +30,3 @@ Type 'python3 alpha_beta.py' into terminal. Instructions will be displayed in th
 Enter what the game board currently looks like. This is done by entering what piece is at a position in the board from left to right
 going top to bottom. The piece can be "R", "Y", or "0" indicating empty. Next, enter which player ("R" or "Y") must move next. 
 The program will output the best move to make. 
-
-Sample input:
-+--+--+--+--+--+--+--+  
-| 0| 0| 0| 0| 0| 0| 0|  
-+--+--+--+--+--+--+--+  
-| 0| 0| 0| 0| 0| 0| 0|  
-+--+--+--+--+--+--+--+  
-| R| 0| 0| 0| 0| 0| 0|  
-+--+--+--+--+--+--+--+  
-| R| Y| R| 0| 0| 0| 0|  
-+--+--+--+--+--+--+--+  
-| Y| Y| R| R| Y| Y| R|  
-+--+--+--+--+--+--+--+  
-| R| Y| R| Y| R| Y| R|  
-+--+--+--+--+--+--+--+  
-Produced output:
-If "R" plays next, then (2,1)
-If "Y" plays next, then (2,1)
